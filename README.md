@@ -16,7 +16,7 @@ __Objetivo:__
 El reto consiste en replicar el sitio de __Freelancer__, este será el resultado
 a lograr:
 
-![Freelancer Website](fullpage.png)
+![image](https://github.com/user-attachments/assets/c48e03fc-cdce-4a9f-bf35-1b78f2ffb88a)
 
 Enfócate en obtener la maquetación
 lo más parecido posible.
