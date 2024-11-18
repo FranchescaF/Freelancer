@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project around</title>
+    <meta name="author" content="Franchesca Fatima Zelaya" />
+    <meta name="description" content="Project around" />
+    <meta
+      name="keywords"
+      content="proyecto, html, css, java script, popup, modal"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <h2 class="header__title">START BOOTSTRAP</h2>
+        <!-- Barra de Navegación -->
+        <nav class="header__nav nav">
+          <ul class="nav__options">
+            <li class="nav_option"><a href="#inicio">PORTAFOLIO</a></li>
+            <li class="nav_option"><a href="#about">ABOUT</a></li>
+            <li class="nav_option"><a href="#contacto">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="profile">
+        <img
+          class="profile__avatar"
+          src="./images/profile (1).png"
+          alt="Avatar de Start Booststrap"
+        />
+        <div class="star__icon">---★---</div>
+        <h1 class="profile__content">
+          Web Developer - Grafic Artist - User Experience Designer
+        </h1>
+      </section>
+      <main class="main">
+        <section class="projects" id="inicio">
+          <h2 class="projects__title">PORTAFOLIO</h2>
+          <div class="star__icon">---★---</div>
+          <div class="projects__items">
+            <img
+              class="projects__item"
+              src="./images/cabin (1).png"
+              alt="Item1"
+            />
+            <img
+              class="projects__item"
+              src="./images/cake (1).png"
+              alt="Item2"
+            />
+            <img
+              class="projects__item"
+              src="./images/circus (1).png"
+              alt="Item3"
+            />
+            <img
+              class="projects__item"
+              src="./images/game (1).png"
+              alt="Item4"
+            />
+            <img
+              class="projects__item"
+              src="./images/safe (1).png"
+              alt="Item5"
+            />
+            <img
+              class="projects__item"
+              src="./images/submarine (1).png"
+              alt="Item6"
+            />
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">ABOUT</h2>
+          <div class="star__icon">---★---</div>
+          <div class="about__texts">
+            <p class="about__text">
+              Freelance is a free Booststrap theme created by Start Booststrap.
+              The download includes the complete source files including HTML,
+              CSS and Java Script as well as optional LESS stylesheets for easy
+              customzation
+            </p>
+            <p class="about__text">
+              Whether youre a student looking to showcase you work, a
+              professional looking to attract clients, or a grafic artist
+              looking to share your projects, this template is the perfect
+              starting point
+            </p>
+          </div>
+          <a
+            class="about__button"
+            href="path_to_download"
+            download="Download_Theme"
+          >
+            <button>Descargar</button>
+          </a>
+        </section>
+        <section class="contact" id="contacto">
+          <h2 class="contact__title">CONTACT ME</h2>
+          <div class="star__icon">---★---</div>
+          <form class="contact__forms" action="/enviar" method="POST">
+            <fieldset class="contact__form">
+              <input
+                class="contact__input"
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Nombre"
+              />
+
+              <input
+                class="contact__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+              />
+
+              <input
+                class="contact__input"
+                type="phone"
+                id="phone"
+                name="phone"
+                placeholder="Phone"
+              />
+
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                cols="50"
+                placeholder="Mensaje"
+                class="contact__message"
+              ></textarea>
+
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&copy;2024 Franchesca Zelaya</p>
+      </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/3e670ceeb5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
