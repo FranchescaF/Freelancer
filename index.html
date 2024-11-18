@@ -44,7 +44,9 @@
           src="./images/profile (1).png"
           alt="Avatar de Start Booststrap"
         />
-        <div class="star__icon">---★---</div>
+        <div class="decorative-line">
+          <span class="star">★</span>
+        </div>
         <h1 class="profile__content">
           Web Developer - Grafic Artist - User Experience Designer
         </h1>
@@ -52,7 +54,9 @@
       <main class="main">
         <section class="projects" id="inicio">
           <h2 class="projects__title">PORTAFOLIO</h2>
-          <div class="star__icon">---★---</div>
+          <div class="decorative-line">
+            <span class="star">★</span>
+          </div>
           <div class="projects__items">
             <img
               class="projects__item"
@@ -88,7 +92,9 @@
         </section>
         <section class="about" id="about">
           <h2 class="about__title">ABOUT</h2>
-          <div class="star__icon">---★---</div>
+          <div class="decorative-line">
+            <span class="star">★</span>
+          </div>
           <div class="about__texts">
             <p class="about__text">
               Freelance is a free Booststrap theme created by Start Booststrap.
@@ -113,7 +119,9 @@
         </section>
         <section class="contact" id="contacto">
           <h2 class="contact__title">CONTACT ME</h2>
-          <div class="star__icon">---★---</div>
+          <div class="decorative-line">
+            <span class="star">★</span>
+          </div>
           <form class="contact__forms" action="/enviar" method="POST">
             <fieldset class="contact__form">
               <input
@@ -149,13 +157,53 @@
                 class="contact__message"
               ></textarea>
 
-              <button type="submit">Enviar</button>
+              <button class="contact__button" type="submit">Send</button>
             </fieldset>
           </form>
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">&copy;2024 Franchesca Zelaya</p>
+        <div class="footer__content container">
+          <!-- Location Section -->
+          <div class="footer__location">
+            <h4 class="footer__title">LOCATION</h4>
+            <p>3481 Melrose Place<br />Beverly Hills, CA 90210</p>
+          </div>
+
+          <!-- Around the Web Section -->
+          <div class="footer__web">
+            <h4 class="footer__title">AROUND THE WEB</h4>
+            <div class="footer__icons">
+              <a href="#" class="footer__icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="footer__icon"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+              <a href="#" class="footer__icon"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="footer__icon"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- About Section -->
+          <div class="footer__about">
+            <h4 class="footer__title">ABOUT FREELANCER</h4>
+            <p>
+              Freelancer is a free to use, open-source Bootstrap theme created
+              by
+              <a href="#" class="footer__link">Start Bootstrap</a>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer__bottom text-center">
+          <p>&copy; 2024 Franchesca Zelaya. All rights reserved.</p>
+        </div>
       </footer>
     </div>
     <script
